@@ -1,0 +1,31 @@
+<html>
+    <head>
+    <script src="axios.min.js"></script>
+    <script src="tp.js"></script>
+    </head>
+
+
+    <body>
+        <div style="margin:5px;width:40%;padding:5px;border: 5px solid lightblue;border-radius: 10px;">
+            <p>Part 1: This button will show a Hello World! upon clicking</p>
+            <input type="button" value="ClickeMe" name="DisplayHello" onclick="DisplayHW()">
+        </div>
+        <div style="margin:5px;width:40%;padding:5px;border: 5px solid lightblue;border-radius: 10px;">
+            <p>Part 2: Click on button bellow to see the result !</p>
+            <input type="button" value="Button 1" id="btn1" onclick="hidebtn1()">
+            <input type="button" value="Button 2" id="btn2" onclick="hidebtn2()" style="visibility: hidden;">
+        </div>
+        <div style="margin:5px;width:40%;padding:5px;border: 5px solid lightblue;border-radius: 10px;">
+            <p>Part 3: Check wether the nubmer is prime or not!</p>   
+            <input type="text" id="number"><input type="button" value="Check" onclick="isPrime()">
+        </div>
+        <div style="margin:5px;width:40%;padding:5px;border: 5px solid lightblue;border-radius: 10px;">
+            <p>Part 4: Working with API!</p>   
+            
+                <input type="text" id="FullName" name="fullname"><br>
+                <input type="number" id="Age" name="age">
+                <input type="button" value="Send" id="sendToAPI" onclick="sendData()">
+           
+        </div>
+    </body>
+</html>
