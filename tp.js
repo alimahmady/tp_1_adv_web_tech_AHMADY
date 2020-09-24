@@ -23,7 +23,7 @@ function isPrime() {
             break; 
         } 
        
-    if (flag == true) 
+    if (flag == true && number!=1) 
         alert(number + " is a prime number"); 
     else
         alert(number + " is not a prime number"); 
